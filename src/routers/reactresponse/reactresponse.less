@@ -1,0 +1,35 @@
+@import "../../App.less";
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+.appText{
+  // color:blueviolet;
+  color:@light-blue;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.list {
+  margin-left: 25vw;
+  width:50vw;
+  //min-width: 400px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: row;
+  align-content: flex-start;
+}
+
+.image {
+  //float: left;
+  width: 25vw;
+  height: 12vw;
+  margin-right: 1rem;
+}
+.content {
+  font-size: 1rem;
+  color:red;
+}

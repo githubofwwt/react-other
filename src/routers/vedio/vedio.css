@@ -1,0 +1,16 @@
+.appText{
+  color:red;
+}
+.barStyle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  width:100%;
+}
+
+.player-size{
+  margin-left: 15%;
+  width:70%;
+  /* height:200; */
+}
